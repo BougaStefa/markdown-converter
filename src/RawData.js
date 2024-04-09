@@ -1,13 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMarkdown } from "@fortawesome/free-brands-svg-icons";
+import "./RawData.css"
 
-function RawData() {
+function RawData({state,setState}) {
+    const handleChange = (event) => {
+        setState(event.target.value);
+    }
   return (
     <div id="rawdatawrap">
       <div id="toolbar">
-        <FontAwesomeIcon icon={faMarkdown} size='2x'/> Text
+        <FontAwesomeIcon icon={faMarkdown} size='2x'/> Editor
       </div>
-      <textarea id='editor'>raw text bladibladibladiblah</textarea>
+      <textarea id='editor' value={state} onChange={handleChange}></textarea>
     </div>
   );
 }

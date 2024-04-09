@@ -1,0 +1,19 @@
+#editor{
+    background-color: rgb(52, 88, 105);
+    outline:none;
+    resize:vertical;
+    font-size: 0.9rem;
+    border:1px solid black;
+    border-top:none;
+    box-shadow: 1px 1px 1px 2px rgb(44, 43, 43);
+    min-height: 150px;
+    min-width: 500px;
+}
+
+#toolbar{
+    border:1px solid black;
+    box-shadow: 1px 1px 1px 2px rgb(44, 43, 43);
+    background-color: rgb(102, 137, 153);
+    font-size: large;
+    font-weight: bold;
+}
