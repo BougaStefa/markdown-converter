@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/markdown-converter/static/css/main.710ac721.css",
+    "main.js": "/markdown-converter/static/js/main.e2da5097.js",
+    "index.html": "/markdown-converter/index.html",
+    "main.710ac721.css.map": "/markdown-converter/static/css/main.710ac721.css.map",
+    "main.e2da5097.js.map": "/markdown-converter/static/js/main.e2da5097.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.710ac721.css",
+    "static/js/main.e2da5097.js"
+  ]
+}
